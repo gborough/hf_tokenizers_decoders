@@ -1,0 +1,9 @@
+[submodule "vendors/utf8proc"]
+	path = vendors/utf8proc
+	url = https://github.com/JuliaStrings/utf8proc
+[submodule "vendors/STC"]
+	path = vendors/STC
+	url = https://github.com/stclib/STC.git
+[submodule "vendors/oniguruma"]
+	path = vendors/oniguruma
+	url = https://github.com/kkos/oniguruma.git
