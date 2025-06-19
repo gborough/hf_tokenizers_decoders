@@ -24,7 +24,7 @@ $(MAKE) -C vendors/hf_tokenizers_decoders
 3. Include the "decoders.h" header and linker flag when compiling: 
 ```
 CFLAGS = ... -Ivendors/hf_tokenizers_decoders/include
-LDFLAGS = ... -Lvendors/hf_tokenizers_decoders/.build -ldecoders
+LDFLAGS = ... -Lvendors/hf_tokenizers_decoders/.build/decoders.so
 ```
 
 ## Type explanations and examples
